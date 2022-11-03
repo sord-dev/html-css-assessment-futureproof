@@ -14,7 +14,6 @@ body {
   color: #f8f2ff;
 }
 
-
 section {
   margin: 30px 0;
 }
@@ -23,9 +22,9 @@ section h2 {
   font-size: 2.1em;
 }
 
-section p{
+section p {
   font-size: 1.2em;
-  opacity: .86;
+  opacity: 0.86;
   letter-spacing: 140%;
 }
 
@@ -89,8 +88,7 @@ header > div h1 {
   width: 100%;
 }
 
-
-.link a{
+.link a {
   color: #6b15d9;
   text-decoration: none;
   font-size: 2em;
@@ -98,7 +96,6 @@ header > div h1 {
 
 .hide-ext {
   display: none;
-  
 }
 
 .link:hover .hide-ext {
@@ -108,6 +105,29 @@ header > div h1 {
 
 /* question form styles */
 
-.question-form input{
-  background-color: black;
+.question-form {
+  display: flex;
+  gap: 1em;
+  margin: 10px 0;
+ 
+}
+
+.question-form input {
+  background-color: #6969695c;
+  color: #f8f2ff;
+  outline: none;
+  border: none;
+
+  font-size: 1.2em;
+  padding: 14px 20px;
+  border-radius: 8px;
+}
+
+.question-form button {
+  background-color: #6969695c;
+  outline: none;
+  border: none;
+
+  padding: 14px 28px;
+  border-radius: 8px;
 }
