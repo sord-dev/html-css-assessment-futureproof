@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Futureproof Site!</title>
+    <link rel="icon" href="./public/bitmoji-computer.svg" />
     <link rel="stylesheet" href="./src/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,20 +16,72 @@
   </head>
   <body>
     <div class="container">
+      <!-- header -->
       <header>
         <img
+          class="me-image"
           src="./public/bitmoji-computer.svg"
           alt="my bitmoji coming out of a laptop screen"
         />
         <div>
           <h1>Stefan Syrett</h1>
-          <span>Nerd</span>
+          <p class="truth-lie">Nerd</p>
           <div class="social-links">
-            <a href="mailto:stefansyrett17@gmail.com">Email</a>
-            <a href="https://github.com/sord-dev">Github</a>
+            <div class="link">
+              <a
+                href="mailto:stefansyrett17@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Email</a
+              >
+              <img
+                class="hide-ext"
+                src="./public/external-link.svg"
+                alt="external link image"
+              />
+            </div>
+
+            <div class="link">
+              <a
+                href="https://github.com/sord-dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Github</a
+              >
+              <img
+                class="hide-ext"
+                src="./public/external-link.svg"
+                alt="external link image"
+              />
+            </div>
           </div>
         </div>
       </header>
+
+      <!-- bio section -->
+
+      <section class="bio-section">
+        <h2>Bio 💬</h2>
+        <p>
+          I'm a London based, self taught developer specialising in React and
+          NextJS. I really enjoy coding and I’d like to solidify and expand my
+          skills. You'll usually find me coding a new project, talking about it
+          with my friends or reading!
+        </p>
+      </section>
+
+      <!-- question form section -->
+
+      <section>
+        <h2>My question to you</h2>
+        <p>What's your favorite book?</p>
+        <form class="question-form">
+          <input type="text" />
+          <button type="submit">📧</button>
+        </form>
+      </section>
+
+      <!-- footer section -->
     </div>
     <script src="./src/index.js"></script>
   </body>

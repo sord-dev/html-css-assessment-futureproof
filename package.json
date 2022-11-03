@@ -1,12 +1,12 @@
 {
   "name": "html-css-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "A portfolio I created for a technical interview with futureproof!",
   "main": "index.js",
   "scripts": {
     "start": "start index.html"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["HTML", "CSS"],
+  "author": "Stefan Syrett",
   "license": "ISC"
 }
