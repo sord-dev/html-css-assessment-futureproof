@@ -4,7 +4,7 @@ const formBtn = document.querySelector("#form-submit");
 const response = document.querySelector("#response");
 
 function send() {
-  alert(bookRes);
+  alert("nice choice!");
 }
 formBtn.addEventListener("click", send);
 
