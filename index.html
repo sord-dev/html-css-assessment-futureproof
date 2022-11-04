@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Futureproof Site!</title>
+    <title>Hello Futureproof!</title>
     <link rel="icon" href="./public/bitmoji-computer.svg" />
     <link rel="stylesheet" href="./src/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -25,7 +25,7 @@
         />
         <div>
           <h1>Stefan Syrett</h1>
-          <p class="truth-lie">I love code.</p>
+          <div class="truth-lie-container"><button id="back-button"> < </button><span class="truth-lie">I love code</span><button id="forward-button">></button></div>
           <div class="social-links">
             <div class="link">
               <a
@@ -63,9 +63,9 @@
       <section class="bio-section">
         <h2>Bio 💬</h2>
         <p>
-          I'm a London based, self taught developer specialising in React and
-          NextJS. I really enjoy coding and I’d like to solidify and expand my
-          skills. You'll usually find me coding a new project, talking about it
+          I&apos;m a London based, self taught developer specialising in React and
+          NextJS. I really enjoy coding and I&apos;d like to solidify and expand my
+          skills. You&apos;ll usually find me coding a new project, talking about it
           with my friends or reading!
         </p>
       </section>
@@ -74,7 +74,7 @@
 
       <section>
         <h2>My question to you</h2>
-        <p>What's your favorite book? (or manga)</p>
+        <p>What&apos;s your favorite book? (or manga)</p>
         <form class="question-form" onsubmit="return false">
           <input id="bookRes" type="text" />
           <button id="form-submit">📧</button>
@@ -82,6 +82,10 @@
       </section>
 
       <!-- footer section -->
+      <footer>
+        <p>Made for <span>futureproof</span></p>
+        <a href="https://github.com/sord-dev/html-css-assessment-futureproof" >source</a>
+      </footer>
     </div>
     <script src="./src/index.js"></script>
   </body>

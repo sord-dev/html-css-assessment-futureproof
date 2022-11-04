@@ -31,6 +31,7 @@ section p {
 /* layout styles */
 
 .container {
+  height: 100vh;
   max-width: 800px;
   margin: 24px auto;
   padding: 1em;
@@ -53,6 +54,7 @@ header > div {
 
 header > div h1 {
   font-size: 2.5em;
+  text-align: center;
 }
 
 /* image styles */
@@ -71,7 +73,22 @@ header > div h1 {
   }
 }
 
-/* truth and lie typewriter */
+/* truth and lie styles */
+
+.truth-lie-container {
+  display: flex;
+  gap: 12px;
+}
+
+.truth-lie-container button{
+  background-color: #6969695c;
+  outline: none;
+  border: none;
+
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: #f8f2ff;
+}
 
 .truth-lie {
   text-align: center;
@@ -109,7 +126,6 @@ header > div h1 {
   display: flex;
   gap: 1em;
   margin: 10px 0;
- 
 }
 
 .question-form input {
@@ -130,4 +146,33 @@ header > div h1 {
 
   padding: 14px 28px;
   border-radius: 8px;
+}
+
+@media only screen and (max-width: 600px) {
+  .question-form input {
+    max-width: 250px;
+  }
+
+  footer {
+    margin-top: 30%;
+  }
+}
+
+/* footer styles */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32%;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f8f2ff;
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    margin-top: 30%;
+  }
 }
